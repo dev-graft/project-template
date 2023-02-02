@@ -1,6 +1,5 @@
 # ProjectTemplate - 서비스 이름으로 변경해주세요.
 
-Docs 타입 리포지토리입니다.
 서비스 소개 글로 변경해주세요.
 
 ### :framed_picture: 서비스 이미지
