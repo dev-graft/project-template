@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,visualstudio,visualstudiocode,androidstudio,android,notepadpp,swift,swiftpackagemanager,java,kotlin,go,goland,goland+iml,goland+all,react,reactnative,gradle,maven,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,intellij+iml,intellij+all,visualstudio,visualstudiocode,androidstudio,android,notepadpp,swift,swiftpackagemanager,java,kotlin,go,goland,goland+iml,goland+all,react,reactnative,gradle,maven,python
+# Created by https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,visualstudio,visualstudiocode,androidstudio,android,notepadpp,swift,swiftpackagemanager,java,kotlin,go,goland,goland+iml,goland+all,react,reactnative,gradle,maven,python,window,macos,git
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij,intellij+iml,intellij+all,visualstudio,visualstudiocode,androidstudio,android,notepadpp,swift,swiftpackagemanager,java,kotlin,go,goland,goland+iml,goland+all,react,reactnative,gradle,maven,python,window,macos,git
 
 ### Android ###
 # Gradle files
@@ -41,6 +41,21 @@ gen-external-apklibs
 
 # Replacement of .externalNativeBuild directories introduced
 # with Android Studio 3.5.
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### Go ###
 # If you prefer the allow list template instead of the deny list, see community template:
@@ -513,6 +528,39 @@ replay_pid*
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
 ### Maven ###
 target/
 pom.xml.tag
@@ -701,6 +749,9 @@ poetry.toml
 # ruff
 .ruff_cache/
 
+# LSP config files
+pyrightconfig.json
+
 ### react ###
 .DS_*
 logs
@@ -753,32 +804,14 @@ gradle-app.setting
 
 ### ReactNative.macOS Stack ###
 # General
-.DS_Store
-.AppleDouble
-.LSOverride
 
 # Icon must end with two \r
-Icon
-
 
 # Thumbnails
-._*
 
 # Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
 
 # Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
 
 ### ReactNative.Linux Stack ###
 *~
@@ -1047,6 +1080,8 @@ xcuserdata
 # Ignore all local history of files
 .history
 .ionide
+
+#!! ERROR: window is undefined. Use list command to see defined gitignore types !!#
 
 ### Gradle ###
 
@@ -1559,4 +1594,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,visualstudio,visualstudiocode,androidstudio,android,notepadpp,swift,swiftpackagemanager,java,kotlin,go,goland,goland+iml,goland+all,react,reactnative,gradle,maven,python
+# End of https://www.toptal.com/developers/gitignore/api/intellij,intellij+iml,intellij+all,visualstudio,visualstudiocode,androidstudio,android,notepadpp,swift,swiftpackagemanager,java,kotlin,go,goland,goland+iml,goland+all,react,reactnative,gradle,maven,python,window,macos,git
